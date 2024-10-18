@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body{
+    background-image: url(assets/bank-found.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.logo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 20px;
+    margin: 40px auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input{
+    background: #ffffff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button{
+    background-image: linear-gradient(#0a32cf, #5269c4) ;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
+
+section{
+    border-radius: 20px;
+    border: 1px solid #0a32cf;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-img{
+    margin: 15px 0;
+}
+
+.currency-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency{
+    color: #777;
+    font-size: 14px;
+}
+
+.currency-value, currency-value-to-convert{
+    color: #555;
+    font-weight: 700;
+    font-size: 20px;
+}
