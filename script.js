@@ -7,7 +7,6 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert");
     const currencyValueConverted = document.querySelector(".currency-value");
 
-    // Taxas de câmbio para BRL
     const dolarToday = 5.20;
     const euroToday = 6.20;
     const btcToday = 390201.28; 
