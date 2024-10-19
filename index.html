@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Conversor de moedas</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <script src="./script.js" defer></script>
 </head>
 <body>
@@ -15,16 +16,21 @@
 
     <main>
         <label>
-            Coverter <b>de</b>
-            <select>
-                <option>R$ Real Brasileiro</option>
+            Converter <b>de</b>
+            <select class="currency-select-home">
+                <option value="brl">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dolar americano</option>
+                <option value="euro">€ Euro</option>
             </select>
         </label>
         <label>
-            Coverter <b>para</b>
+            Converter <b>para</b>
             <select class="currency-select">
                 <option value="dolar">US$ Dolar americano</option>
                 <option value="euro">€ Euro</option>
+                <option value="brl">R$ Real Brasileiro</option>
+                <option value="btc">₿ Biticoin</option>
+                <option value="libra">£ Libra</option>
             </select>
         </label>
         <label>
@@ -35,8 +41,8 @@
         </label>
         <section>
             <div class="currency-box">
-                <img src="./assets/real.png" alt="moeda-logo-convertida">
-                <p class="currency">Real</p>
+                <img src="./assets/real.png" alt="moeda-logo-convertida" class="currency-home-img">
+                <p class="currency-logo">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
